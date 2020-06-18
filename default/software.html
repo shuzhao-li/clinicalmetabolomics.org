@@ -1,0 +1,47 @@
+
+{{extend 'layout.html'}}
+
+
+<div class="span12" style="margin-bottom:40px">
+    <div class="span7">
+	<h4>apLCMS, LC-MS metabolomics feature extraction</h4>
+	<p>Yu, T., Park, Y., Johnson, J. M., and Jones, D. P. (2009). apLCMS—adaptive processing of high-resolution LC/MS data. Bioinformatics, 25(15), 1930-1936.</p>
+	<p>The major technical improvements include the adaptive tolerance level searching rather than hard cutoff or binning, the use of non-parametric methods to fine-tune intensity grouping, the use of run filter to better preserve weak signals and the model-based estimation of peak intensities for absolute quantification. The algorithms are implemented in an R package apLCMS, which can efficiently process large LC/ MS datasets.</p>
+	
+	<p><a href="http://sourceforge.net/projects/aplcms/files/">Download</a> - <a href="http://web1.sph.emory.edu/apLCMS/">Manual</a> - Reference</p>
+	</div>
+	<div class="span4">{{=IMG(_src=URL('static/images', 'aplcms.jpg'), _alt='apLCMS')}}</div>
+</div>
+
+
+<div class="span12" style="margin-bottom:40px">
+    <div class="span7">
+	<h4>xMSanalyzer</h4>
+	<p>Uppal, K., Soltow, Q. A., Strobel, F. H., Pittard, W. S., Gernert, K. M., Yu, T., & Jones, D. P. (2013). xMSanalyzer: automated pipeline for improved feature detection and downstream analysis of large-scale, non-targeted metabolomics data. BMC bioinformatics, 14(1), 15.</p>
+	<p>xMSanalyzer is a package of utilities for data extraction, quality control assessment, detection of overlapping and unique metabolites in multiple datasets, and batch annotation of metabolites. The program was designed to integrate with existing packages such as apLCMS and XCMS, but the framework can also be used to enhance data extraction for other LC/MS data software.</p>
+	
+	<p><a href="http://sourceforge.net/projects/xmsanalyzer/">Download</a> - Manual - Reference</p>
+	</div>
+	<div class="span4">{{=IMG(_src=URL('static/images', 'xms_analyzer.jpg'), _alt='xMSanalyzer')}}</div>
+</div>
+
+
+<div class="span12" style="margin-bottom:40px">
+    <div class="span7">
+	<h4>Mummichog, pathway and network analysis for high-throughput metabolomics</h4>
+	<p>Li, S., Park, Y., Duraisingham, S., Strobel, F. H., Khan, N., Soltow, Q. A., ... & Pulendran, B. (2013). Predicting network activity from high throughput metabolomics. PLoS computational biology, 9(7), e1003123.</p>
+	<p>Mass spectrometry based untargeted metabolomics can now profile several thousand of metabolites simultaneously. However, these metabolites have to be identified before any biological meaning can be drawn from the data. Metabolite identification is a challenging and low throughput process, therefore becomes the bottleneck of the filed. We report here a novel approach to predict biological activity directly from mass spectrometry data without a priori identification of metabolites. By unifying network analysis and metabolite prediction under the same computational framework, the organization of metabolic networks and pathways helps resolve the ambiguity in metabolite prediction to a large extent. We validated our algorithms on a set of activation experiment of innate immune cells. The predicted activities were confirmed by both gene expression and metabolite identification. This method shall greatly accelerate the application of high throughput metabolomics, as the tedious task of identifying hundreds of metabolites upfront can be shifted to a handful of validation experiments after our computational prediction.</p>
+	
+	<p><a href="http://mummichog.org/download/mummichog-1.0.5.zip" rel="nofollow">Download</a> - <a href="mummichog_manual")>Manual</a> - Reference</p>
+	</div>
+	<div class="span4">{{=IMG(_src=URL('static/images', 'mummichog.png'), _alt='Mummichog')}}</div>
+</div>
+
+
+
+
+
+
+
+
+
